@@ -1,0 +1,6 @@
+{% include 'components/top.html' %}
+<section>
+    <h4>{{ song.artist }}</h4>
+    <h2>{{ song.title }} <span class="featuring">{{ song.featuring or '' }}</span></h2>
+</section>
+{% include 'components/end.html' %}

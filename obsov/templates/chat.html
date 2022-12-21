@@ -1,0 +1,7 @@
+{% include 'components/top.html' %}
+<section>
+    {% for msg in messages %}
+    <p>[<span class="username" style="color: {{ msg.color }}">{{ msg.user }}</span>] {{ msg.text }}</p>
+    {% endfor %}
+</section>
+{% include 'components/end.html' %}

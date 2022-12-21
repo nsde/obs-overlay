@@ -1,0 +1,16 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "obsov/static/style.css": true,
+        "obsov/static/style.css.map": true
+    },
+    "hide-files.files": [
+        "obsov/static/style.css",
+        "obsov/static/style.css.map"
+    ]
+}
